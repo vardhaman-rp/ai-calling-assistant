@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather input="dtmf" numDigits="1" action="https://your-callback-url.com/response" method="POST">
+        <Say>Hello! This is an automated message. Will you come to the move? Press 1 for Yes or 2 for No.</Say>
+    </Gather>
+    <Say>We did not receive your input. Goodbye!</Say>
+</Response>
